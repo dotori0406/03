@@ -3,12 +3,12 @@
 
 int main(int argc, char *argv[])
 {
-    float x,y;
+    int x,y;
     printf("Enter a numerator : ");
-    scanf("%f",&x);
+    scanf("%d",&x);
     
     printf("Enter a denominator : ");
-    scanf("%f",&y);
+    scanf("%d",&y);
     float i;
     i=y/x;
     printf("Result is %f\n",i); 
