@@ -9,9 +9,8 @@ int main(int argc, char *argv[])
     
     printf("Enter a denominator : ");
     scanf("%d",&y);
-    float i;
-    i=y/x;
-    printf("Result is %f\n",i); 
+    
+    printf("Result is %f\n",(float)y/x); 
     
     getchar();
 
